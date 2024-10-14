@@ -20,6 +20,10 @@ class HomeScreen extends StatelessWidget {
             subtitle: const Text("Gerenciamento de estado previsível"),
             trailing: const Icon(Icons.arrow_forward_ios_rounded),
             onTap: () => context.push('/bloc'),
+          ),
+          const Padding(
+            padding: EdgeInsets.symmetric(horizontal: 10),
+            child: Divider(),
           )
         ],
       ),
